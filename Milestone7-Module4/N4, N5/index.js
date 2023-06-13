@@ -51,7 +51,7 @@ app.post('/create-contact', function(req, res){
     // return res.redirect('/');
     // OR
     return res.redirect('back');
-    // The 'back' takes you back to there where the form is actually (i,e. url)
+    // The 'back' takes you back to there where the form is actually located (i,e. url) and the form is located at '/'
 });
 
 app.listen(port, function(err){
